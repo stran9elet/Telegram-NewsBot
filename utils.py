@@ -1,6 +1,6 @@
 import os
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "PATH TO YOUR SERVICE ACCOUNT JSON KEY"
-# don't forget to install your service account JSON key from google cloud platform
+# don't forget to get your service account JSON key from google cloud platform
 
 import dialogflow_v2 as dialogflow
 dialogflow_sessions_client = dialogflow.SessionsClient()
